@@ -23,9 +23,10 @@
     "url": "https://github.com/magic-modules/theme-list/issues"
   },
   "dependencies": {
-    "@magic-modules/gitbadges": "github:magic-modules/gitbadges"
+    "@magic-modules/git-list": "github:magic-modules/git-list"
   },
   "devDependencies": {
+    "@magic-modules/git-badges": "github:magic-modules/git-badges",
     "@magic-modules/pre": "github:magic-modules/pre",
     "@magic-themes/docs": "github:magic-themes/docs",
     "@magic/core": "github:magic/core",
