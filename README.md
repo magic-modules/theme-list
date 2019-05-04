@@ -1,7 +1,8 @@
 ## @magic-modules/theme-list
 this is the [@magic-modules](https://github.com/magic-modules/)
 ThemeList component.
-It provides a list with descriptions and links for all [@magic-themes](https://github.com/magic-themes/).
+
+shows a list of all [@magic-themes](https://github.com/magic-themes/).
 
 [html docs](https://magic-modules.github.io/theme-list/)
 
@@ -16,8 +17,8 @@ It provides a list with descriptions and links for all [@magic-themes](https://g
 [npm-url]: https://www.npmjs.com/package/@magic-modules/theme-list
 [travis-image]: https://api.travis-ci.org/magic-modules/theme-list.svg?branch=master
 [travis-url]: https://travis-ci.org/magic-modules/theme-list
-[appveyor-image]: https://img.shields.io/appveyor/ci/jaeh/theme-list/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/jaeh/core/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/magic-modules/theme-list/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magic-modules/theme-list/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/theme-list/badge.svg
 [coveralls-url]: https://coveralls.io/github/magic-modules/theme-list
 [greenkeeper-image]: https://badges.greenkeeper.io/magic-modules/theme-list.svg
@@ -35,8 +36,6 @@ npm install --save-exact @magic-modules/theme-list
 ##### import:
 ```javascript
 // assets/index.js:
-
-
 module.exports = {
   //... other entries
   ThemeList = require('@magic-modules/theme-list'),
@@ -46,9 +45,7 @@ module.exports = {
 ##### use tag
 ```javascript
 // in any component view
-const component = {
-  View: () => div([ThemeList]),
-}
+const component = () => ThemeList
 ```
 
 thats it.
