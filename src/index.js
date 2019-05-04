@@ -1,30 +1,29 @@
-const ThemeList = () =>
-  ul({ class: 'ThemeList' }, [
-    li([
-      h3(
-        { id: 'themes-docs' },
-        Link({ to: 'https://github.com/magic-themes/docs' }, '@magic-themes/docs'),
-      ),
-      div('the @magic-themes/docs theme is used in all @magic documentation pages.'),
-      GitBadges({
-        project: 'magic-themes/docs',
-        appveyor: 'jaeh/docs',
-      }),
-      Link({ to: 'https://magic-themes.github.io/docs' }, 'docs / demo'),
-    ]),
-  ])
-
-ThemeList.style = {
-  '.ThemeList': {
-    a: {
-      display: 'block',
-      lineHeight: 1.8,
-    },
-  },
-}
+const ThemeList = props =>
+  CHECK_PROPS(props, ThemeList.props, 'ThemeList') &&
+  GitList({
+    id: 'magic-themes',
+    org: 'magic-themes',
+    header: [Link({ to: 'https://magic-themes.github.io' }, '@magic-themes')],
+    desc: ['below is a collection of the available @magic app themes.'],
+    items: [
+      {
+        name: 'docs',
+        description: 'the @magic documentation theme. used in all @magic docs.',
+      },
+    ],
+    ...props,
+  })
 
 ThemeList.dependencies = {
-  GitBadges: require('@magic-modules/gitbadges'),
+  GitList: require('@magic-modules/git-list'),
 }
+
+ThemeList.props = [
+  { key: 'id', type: 'string' },
+  { key: 'org', type: 'string' },
+  { key: 'header', type: 'string' },
+  { key: 'desc', type: ['string', 'array'] },
+  { key: 'items', type: 'array' },
+]
 
 module.exports = ThemeList
