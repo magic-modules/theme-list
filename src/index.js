@@ -1,7 +1,6 @@
 const ThemeList = props =>
   CHECK_PROPS(props, ThemeList.props, 'ThemeList') &&
   GitList({
-    id: 'magic-themes',
     org: 'magic-themes',
     header: [Link({ to: 'https://magic-themes.github.io' }, '@magic-themes')],
     desc: ['below is a collection of the available @magic app themes.'],
