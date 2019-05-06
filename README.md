@@ -17,8 +17,8 @@ shows a list of all [@magic-themes](https://github.com/magic-themes/).
 [npm-url]: https://www.npmjs.com/package/@magic-modules/theme-list
 [travis-image]: https://api.travis-ci.org/magic-modules/theme-list.svg?branch=master
 [travis-url]: https://travis-ci.org/magic-modules/theme-list
-[appveyor-image]: https://img.shields.io/appveyor/ci/magic-modules/theme-list/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/magic-modules/theme-list/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/magicmodules/theme-list/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magicmodules/theme-list/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/theme-list/badge.svg
 [coveralls-url]: https://coveralls.io/github/magic-modules/theme-list
 [greenkeeper-image]: https://badges.greenkeeper.io/magic-modules/theme-list.svg
@@ -32,17 +32,6 @@ npm install --save-exact @magic-modules/theme-list
 ```
 
 #### usage:
-
-##### import:
-```javascript
-// assets/index.js:
-module.exports = {
-  //... other entries
-  ThemeList = require('@magic-modules/theme-list'),
-}
-```
-
-##### use tag
 ```javascript
 // in any component view
 const component = () => ThemeList
