@@ -1,5 +1,5 @@
-const ThemeList = props =>
-  CHECK_PROPS(props, ThemeList.props, 'ThemeList') &&
+export const View = props =>
+  CHECK_PROPS(props, propTypes, 'ThemeList') &&
   GitList({
     org: 'magic-themes',
     header: [Link({ to: 'https://magic-themes.github.io' }, '@magic-themes')],
@@ -13,16 +13,10 @@ const ThemeList = props =>
     ...props,
   })
 
-ThemeList.dependencies = {
-  GitList: require('@magic-modules/git-list'),
-}
-
-ThemeList.props = [
+export const propTypes = [
   { key: 'id', type: 'string' },
   { key: 'org', type: 'string' },
   { key: 'header', type: 'string' },
   { key: 'desc', type: ['string', 'array'] },
   { key: 'items', type: 'array' },
 ]
-
-module.exports = ThemeList
