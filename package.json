@@ -30,7 +30,7 @@
     "@magic-modules/pre": "github:magic-modules/pre",
     "@magic-themes/docs": "github:magic-themes/docs",
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.12"
+    "@magic/test": "0.1.1"
   },
   "author": "Wizards & Witches",
   "description": "@magic-modules/theme-list. displays a list of all @magic-themes.",
