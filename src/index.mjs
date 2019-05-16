@@ -1,4 +1,4 @@
-export const View = props =>
+export const View = (props = {}) =>
   CHECK_PROPS(props, propTypes, 'ThemeList') &&
   GitList({
     org: 'magic-themes',
