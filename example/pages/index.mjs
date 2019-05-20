@@ -1,4 +1,4 @@
-module.exports = () => [
+export const View = () => [
   h1('@magic-modules/theme-list'),
   p([
     'this is the ',
@@ -13,11 +13,11 @@ module.exports = () => [
 
   h2({ id: 'usage' }, 'usage'),
   p('in a page or module View'),
-  Pre('module.exports = {\n  View: () => ThemeList,\n}'),
+  Pre('export const View = () => ThemeList()'),
 
   h2({ id: 'demo' }, 'demo'),
   p('this is what it looks like'),
-  ThemeList,
+  ThemeList(),
 
   h2({ id: 'source' }, 'source'),
   p([

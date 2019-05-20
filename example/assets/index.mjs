@@ -1,3 +1,1 @@
-module.exports = {
-  ThemeList: require('../../src'),
-}
+export * as ThemeList from '../../src/index.mjs'
