@@ -5,6 +5,9 @@
   "description": "@magic-modules/theme-list. displays a list of all @magic-themes.",
   "license": "AGPL-3.0",
   "homepage": "https://magic-modules.github.io/theme-list",
+  "engines": {
+    "node": ">=12.2.0"
+  },
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
