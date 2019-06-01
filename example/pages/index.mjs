@@ -1,4 +1,4 @@
-export const View = () => [
+export const View = state => [
   h1('@magic-modules/theme-list'),
   p([
     'this is the ',
@@ -29,4 +29,6 @@ export const View = () => [
     ' and gets built and published to github using ',
     Link({ to: 'https://github.com/magic/core' }, '@magic/core'),
   ]),
+
+  LightSwitch(state),
 ]
