@@ -15,8 +15,8 @@ shows a list of all [@magic-themes](https://github.com/magic-themes/).
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/theme-list.svg
 [npm-url]: https://www.npmjs.com/package/@magic-modules/theme-list
-[travis-image]: https://api.travis-ci.org/magic-modules/theme-list.svg?branch=master
-[travis-url]: https://travis-ci.org/magic-modules/theme-list
+[travis-image]: https://img.shields.io/travis/com/magic-modules/theme-list/master
+[travis-url]: https://travis-ci.com/magic-modules/theme-list
 [appveyor-image]: https://img.shields.io/appveyor/ci/magicmodules/theme-list/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magicmodules/theme-list/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/theme-list/badge.svg
