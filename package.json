@@ -1,6 +1,6 @@
 {
   "name": "@magic-modules/theme-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Wizards & Witches",
   "description": "@magic-modules/theme-list. displays a list of all @magic-themes.",
   "license": "AGPL-3.0",
@@ -34,16 +34,17 @@
     "@magic-modules/git-list": "github:magic-modules/git-list"
   },
   "devDependencies": {
-    "@magic-modules/gdpr": "0.0.2",
-    "@magic-modules/git-badges": "0.0.2",
-    "@magic-modules/light-switch": "0.0.1",
+    "@magic-modules/gdpr": "0.0.4",
+    "@magic-modules/git-badges": "0.0.3",
+    "@magic-modules/light-switch": "0.0.2",
     "@magic-modules/pre": "0.0.2",
     "@magic-themes/docs": "0.0.2",
-    "@magic/core": "github:magic/core",
+    "@magic/core": "0.0.2",
     "@magic/test": "0.1.23"
   },
   "keywords": [
     "magic",
+    "module",
     "theme-list"
   ],
   "contributors": [
