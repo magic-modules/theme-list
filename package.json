@@ -1,6 +1,6 @@
 {
   "name": "@magic-modules/theme-list",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Wizards & Witches",
   "description": "@magic-modules/theme-list. displays a list of all @magic-themes.",
   "license": "AGPL-3.0",
