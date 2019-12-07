@@ -31,7 +31,7 @@
     "url": "https://github.com/magic-modules/theme-list/issues"
   },
   "dependencies": {
-    "@magic-modules/git-list": "github:magic-modules/git-list"
+    "@magic-modules/git-list": "0.0.3"
   },
   "devDependencies": {
     "@magic-modules/gdpr": "0.0.4",
