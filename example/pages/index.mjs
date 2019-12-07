@@ -9,7 +9,7 @@ export const View = state => [
   GitBadges('magic-modules/theme-list'),
 
   h2({ id: 'installation' }, 'installation'),
-  Pre('npm install magic-modules/theme-list'),
+  Pre('npm install @magic-modules/theme-list'),
 
   h2({ id: 'usage' }, 'usage'),
   p('in a page or module View'),
