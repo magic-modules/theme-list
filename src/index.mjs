@@ -1,5 +1,4 @@
-export const View = (props = {}) =>
-  CHECK_PROPS(props, propTypes, 'ThemeList') &&
+export const View = () =>
   GitList({
     org: 'magic-themes',
     header: [Link({ to: 'https://magic-themes.github.io' }, '@magic-themes')],
@@ -10,15 +9,4 @@ export const View = (props = {}) =>
         description: 'the @magic documentation theme. used in all @magic docs.',
       },
     ],
-    ...props,
   })
-
-export const propTypes = {
-  ThemeList: [
-    { key: 'id', type: 'string' },
-    { key: 'org', type: 'string' },
-    { key: 'header', type: 'string' },
-    { key: 'desc', type: ['string', 'array'] },
-    { key: 'items', type: 'array' },
-  ],
-}
