@@ -4,4 +4,5 @@ export default {
   URL: 'magic-modules.github.io/theme-list',
   PUBLIC: 'docs',
   THEME: 'docs',
+  HOIST: 'Gdpr',
 }
