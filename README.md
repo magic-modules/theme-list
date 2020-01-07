@@ -54,4 +54,7 @@ update @magic-modules/git-list
 remove props
 
 ##### 0.0.5 - unreleased
+require node 13.5.0
+
+##### 0.0.6 - unreleased
 ...
