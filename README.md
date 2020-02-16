@@ -53,8 +53,9 @@ update @magic-modules/git-list
 ##### 0.0.4
 remove props
 
-##### 0.0.5 - unreleased
-require node 13.5.0
+##### 0.0.5
+* require node 13.5.0
+* add example and project themes to list
 
 ##### 0.0.6 - unreleased
 ...
