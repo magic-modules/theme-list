@@ -8,5 +8,13 @@ export const View = () =>
         name: 'docs',
         description: 'the @magic documentation theme. used in all @magic docs.',
       },
+      {
+        name: 'example',
+        description: 'a minimal example theme.',
+      },
+      {
+        name: 'project',
+        description: 'foundational @magic theme for project presentation.',
+      },
     ],
   })
