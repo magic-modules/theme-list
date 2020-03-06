@@ -16,5 +16,9 @@ export const View = () =>
         name: 'project',
         description: 'foundational @magic theme for project presentation.',
       },
+      {
+        name: 'reader',
+        description: 'a theme designed to provide a reader mode.',
+      },
     ],
   })
