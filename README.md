@@ -1,6 +1,6 @@
 ## @magic-modules/theme-list
-this is the [@magic-modules](https://github.com/magic-modules/)
-ThemeList component.
+
+this is the [@magic-modules](https://github.com/magic-modules/) ThemeList component.
 
 shows a list of all [@magic-themes](https://github.com/magic-themes/).
 
@@ -32,9 +32,9 @@ npm install --save-exact @magic-modules/theme-list
 ```
 
 #### usage:
+
 ```javascript
-// in any component view
-const component = () => ThemeList
+<ThemeList></ThemeList>
 ```
 
 thats it.
@@ -57,5 +57,9 @@ remove props
 * require node 13.5.0
 * add example and project themes to list
 
-##### 0.0.6 - unreleased
+##### 0.0.6
+* update GitList
+* add @magic-themes/reader
+
+##### 0.0.7 - unreleased
 ...
