@@ -58,8 +58,12 @@ remove props
 * add example and project themes to list
 
 ##### 0.0.6
-* update GitList
 * add @magic-themes/reader
 
-##### 0.0.7 - unreleased
+##### 0.0.7
+* update description
+* update git-list
+
+##### 0.0.8 - unreleased
+
 ...
