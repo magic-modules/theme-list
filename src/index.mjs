@@ -2,7 +2,11 @@ export const View = () =>
   GitList({
     org: 'magic-themes',
     header: [Link({ to: 'https://magic-themes.github.io' }, '@magic-themes')],
-    desc: ['below is a collection of the available @magic app themes.'],
+    desc: [
+      'below is a collection of the available @magic app themes.',
+      ' all of the themes below are designed to be usable on their own,',
+      ' but they can also be combined if needed.',
+    ],
     items: [
       {
         name: 'docs',
