@@ -4,7 +4,7 @@ this is the
 [@magic-modules](https://github.com/magic-modules)
 ThemeList component. It shows a list of all @magic-themes.
 
-<GitBadges>magic-modules/theme-list</GitBadges>
+<GitBadges>@magic-modules/theme-list</GitBadges>
 
 ## installation
 
