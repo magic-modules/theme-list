@@ -67,5 +67,8 @@ remove props
 ##### 0.0.8
 update git-list
 
-##### 0.0.9 - unreleased
+##### 0.0.9 
+update git-list
+
+##### 0.0.10 - unreleased
 ...
