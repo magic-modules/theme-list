@@ -1,7 +1,6 @@
 export const state = {
   title: '@magic-modules/theme-list',
   description: 'shows a list of all @magic-themes with gitbadges and urls to the docs',
-
   logotext: 'ThemeList',
 
   menu: [
