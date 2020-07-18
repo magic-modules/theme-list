@@ -21,6 +21,10 @@ export const View = () =>
         description: 'foundational @magic theme for project presentation.',
       },
       {
+        name: 'slides',
+        description: 'theme that provides slides for presentations.',
+      },
+      {
         name: 'reader',
         description: 'a theme designed to provide a reader mode.',
       },
