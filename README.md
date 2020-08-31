@@ -76,5 +76,8 @@ bump required node version to 14.2.0
 ##### 0.0.11
 add slides to theme list
 
-##### 0.0.12 - unreleased
+##### 0.0.12
+update git-list to get rid of typo
+
+##### 0.0.13 - unreleased
 ...
