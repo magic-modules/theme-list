@@ -67,7 +67,7 @@ remove props
 ##### 0.0.8
 update git-list
 
-##### 0.0.9 
+##### 0.0.9
 update git-list
 
 ##### 0.0.10
@@ -79,5 +79,8 @@ add slides to theme list
 ##### 0.0.12
 update git-list to get rid of typo
 
-##### 0.0.13 - unreleased
+##### 0.0.13
+bump required node version to 14.15.4
+
+##### 0.0.14 - unreleased
 ...
